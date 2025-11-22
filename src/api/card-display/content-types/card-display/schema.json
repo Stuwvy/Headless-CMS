@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_displays",
+  "info": {
+    "singularName": "card-display",
+    "pluralName": "card-displays",
+    "displayName": "CardDisplay"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CardImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}
